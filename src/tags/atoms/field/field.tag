@@ -1,7 +1,7 @@
 <field>
 
   <label if={ label_text } id={ id }>
-    label_text
+    { label_text }
   </label>
 
   <input type={ type } id={ id } name={ id } value={ val } onkeyup={ updateValue } />
