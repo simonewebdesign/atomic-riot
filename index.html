@@ -23,6 +23,22 @@
     <main class="site-main">
       Text field:
       <text-field></text-field>
+      
+      <hr>
+
+      Field (with a type of "date"):
+      <field id="my-date-field" type="date"></field>
+
+      <hr>
+
+      Field (with a type of "number"):
+      <field id="my-number-field" type="number"></field>
+
+      <hr>
+
+      Field (with a type of "email"):
+      <field id="my-email-field" type="email"></field>
+
     </main>
 
     <footer class="site-footer">
@@ -34,10 +50,12 @@
 
     <!-- Include tags -->
     <script src="dist/tags/atoms/text-field/text-field.js"></script>
+    <script src="dist/tags/atoms/field/field.js"></script>
 
     <!-- Mount tags -->
     <script>
       riot.mount('text-field')
+      riot.mount('field')
     </script>
 
   </body>
