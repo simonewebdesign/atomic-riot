@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Riot demo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="global.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.0.5/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script>html5.addElements('demo')</script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <header class="site-header">
+      <h1>RiotJS</h1>
+    </header>
+
+    <main class="site-main">
+      Text field:
+      <text-field></text-field>
+    </main>
+
+    <footer class="site-footer">
+      Copyright &copy; 2015
+    </footer>
+
+    <!-- Include Riot.js -->
+    <script src="bower_components/riot/riot.js"></script>
+
+    <!-- Include tags -->
+    <script src="dist/tags/atoms/text-field/text-field.js"></script>
+
+    <!-- Mount tags -->
+    <script>
+      riot.mount('text-field')
+    </script>
+
+  </body>
+
+</html>

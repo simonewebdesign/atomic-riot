@@ -1,0 +1,15 @@
+body {
+  background-color: #eee;
+}
+
+.opaque {
+  opacity: .5;
+}
+
+.site-header,
+.site-main,
+.site-footer {
+  background-color: #dadada;
+  padding: 2vw;
+  margin-bottom: 1vw;
+}
